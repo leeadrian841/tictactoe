@@ -1,3 +1,6 @@
+h1{
+  text-align: center;
+}
 .main{
   display: block;
   height: 500px;
@@ -5,15 +8,24 @@
   margin: 0 auto;
 }
 .bigbox{
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
   margin-left: 60%;
 }
 .bigbox div{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   outline: 1px solid black;
   float: left;
+}
+.panel{
+  display: inline-block;
+}
+.player1{
+  text-align: center;
+}
+.player2{
+  text-align: center;
 }
 .reset{
   outline: 1px solid black;
