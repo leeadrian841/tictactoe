@@ -10,7 +10,7 @@ h1{
 .bigbox{
   width: 450px;
   height: 450px;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 .bigbox div{
   width: 150px;
@@ -20,6 +20,7 @@ h1{
 }
 .panel{
   display: inline-block;
+  margin-right: 50%;
 }
 .player1{
   text-align: center;
