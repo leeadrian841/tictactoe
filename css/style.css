@@ -1,5 +1,6 @@
 h1{
   text-align: center;
+  color: green;
 }
 .main{
   display: block;
@@ -10,13 +11,14 @@ h1{
 .bigbox{
   width: 450px;
   height: 450px;
-  margin-left: 50%;
+  margin-left: 0 auto;
 }
 .bigbox div{
   width: 150px;
   height: 150px;
   outline: 1px solid black;
   float: left;
+  cursor: pointer;
 }
 .panel{
   display: inline-block;
@@ -32,4 +34,13 @@ h1{
   outline: 1px solid black;
   background-color: blue;
   text-align: center;
+}
+
+.clickX{
+  background-image: url('/css/cross.png');
+  background-size: cover;
+}
+.clickO{
+  background-image: url('/css/circle.png');
+  background-size: cover;
 }
